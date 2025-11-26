@@ -1,0 +1,44 @@
+{
+  "name": "@omni-agent/form-components",
+  "version": "1.0.0",
+  "description": "Reusable form components library for Omni Agent projects",
+  "main": "./index.ts",
+  "types": "./index.ts",
+  "files": [
+    "components/",
+    "types/", 
+    "validation/",
+    "styles/",
+    "index.ts"
+  ],
+  "peerDependencies": {
+    "react": "^18.0.0 || ^19.0.0",
+    "react-dom": "^18.0.0 || ^19.0.0", 
+    "react-hook-form": "^7.0.0",
+    "@hookform/resolvers": "^3.0.0 || ^5.0.0",
+    "zod": "^3.0.0 || ^4.0.0",
+    "clsx": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0 || ^19.0.0",
+    "@types/react-dom": "^18.0.0 || ^19.0.0",
+    "typescript": "^5.0.0"
+  },
+  "exports": {
+    ".": {
+      "import": "./index.ts",
+      "require": "./index.ts"
+    },
+    "./styles": "./styles/form-components.css"
+  },
+  "keywords": [
+    "react",
+    "forms", 
+    "components",
+    "typescript",
+    "validation",
+    "ui"
+  ],
+  "author": "Omni Agent Team",
+  "license": "MIT"
+}

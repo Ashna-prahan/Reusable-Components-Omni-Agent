@@ -1,0 +1,28 @@
+/* 
+ * Reusable Form Components - Additional styles for file upload
+ * These work alongside Tailwind CSS for specialized components
+ */
+
+/* File Upload Dropzone Styles */
+.form-file-dropzone {
+  border: 2px dashed #d1d5db;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  text-align: center;
+  cursor: pointer;
+  transition: border-color 0.2s, background-color 0.2s;
+}
+
+.form-file-dropzone:hover {
+  border-color: #9ca3af;
+}
+
+.form-file-dropzone.active {
+  border-color: #3b82f6;
+  background-color: #dbeafe;
+}
+
+.form-file-dropzone.error {
+  border-color: #dc2626;
+  background-color: #fef2f2;
+}
